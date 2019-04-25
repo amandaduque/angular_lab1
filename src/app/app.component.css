@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    background-color: white;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+}
+
+input {
+    width: 80%;
+    height: 25px;
+    margin: 1%;
+}
+
+.taskBox {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 10%;
+width: 50%;
+}
+
+.completeButton {
+    justify-content: flex-start;
+    border: solid 1px #E75480;
+    color: #E75480;
+    border-radius: 9%;
+    padding: 1%;
+}
+
+.deleteButton {
+    justify-content: flex-end;
+border: none;
+font-size: 16px;
+}
+
+.addButton {
+    width: 81%;
+    height: 30px;
+    background-color: #E75480;
+    color: white;
+}
+
+.taskCompleted {
+    text-decoration: line-through;
+}
